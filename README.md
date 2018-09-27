@@ -8,3 +8,5 @@ La fecha de creación de cada archivo es del _17 de abril del 2011_, desde enton
 Nótese que este proyecto es 100% compatible con IE6, el cual se seguía usando en aquel entonces y quise que fuese compatible con éste y con Firefox, (mi navegador favorito en ese tiempo).
 
 La imagen por defecto es un Red Panda (como mi muestra de amor por Firefox), no sé si estará sujeta a derechos de autor o no, pero eso siempre me tuvo sin cuidado.
+
+<https://rompecabezas.herson.hn>
