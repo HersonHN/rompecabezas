@@ -8,6 +8,7 @@
     float: initial;
     display: inline-block;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -18,5 +19,11 @@
   body{
     margin: 0px;
     padding: 0px;
+  }
+  div#divmovimientos {
+    margin: 5px 0 10px;
+  }
+  #area {
+    padding: 5px 5px 40px;
   }
 }

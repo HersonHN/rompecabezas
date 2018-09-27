@@ -133,7 +133,7 @@ function generar() {
   cmdreiniciar.id = 'cmdreiniciar';
   cmdreiniciar.type = 'button';
   cmdreiniciar.value = 'Reiniciar Juego';
-  cmdreiniciar.onclick = function() { history.go() };
+  cmdreiniciar.onclick = function() { location.href = location.href };
   divMovimientos.appendChild(cmdreiniciar);
   
   //crea una nueva tabla, para las piezas
@@ -320,12 +320,12 @@ function juegoTerminado() {
   var imagen = document.createElement('div');
   var boton = document.createElement('input');
   contenedor.className = 'contenedor';
-  titulo.innerHTML = '�FELICIDADES!';
-  texto.innerHTML = 'Felicidades has logrado armar el rompecabezas de '+N+'x'+N+' piezas, si quieres puedes seguir jugando seleccionando cualquier imagen de la web y con el numero de piezas que prefieras. �Gracias por haber jugado!';
+  titulo.innerHTML = '¡FELICIDADES!';
+  texto.innerHTML = 'Felicidades has logrado armar el rompecabezas de '+N+'x'+N+' piezas, si quieres puedes seguir jugando seleccionando cualquier imagen de la web y con el numero de piezas que prefieras. ¡Gracias por haber jugado!';
   boton.id = 'cmdreiniciar';
   boton.type = 'button';
   boton.value = 'Reiniciar Juego';
-  boton.onclick = function() { history.go() };
+  boton.onclick = function() { location.href = location.href };
   label1.innerHTML = 'Total de movimientos realizados:';
   label1.className = 'etiqueta';
   label2.innerHTML = MOVIMIENTOS;
