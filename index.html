@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Rompecabezas</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="rompecabezas.css">
+    <link rel="stylesheet" type="text/css" href="movil.css">
+    <script type="text/javascript" src="rompecabezas.js"></script>
+</head>
+
+<body onLoad = "cargarRompecabezas('RedPanda.jpg', 300)">
+
+
+<noscript>
+<p>Necesita activar javascript para poder jugar...</p>
+</noscript>
+
+<div id="area" class="oculto">
+
+  <div id="opciones">
+    <h1>Rompecabezas</h1>
+    <div class="opciones" id="divruta">
+      <p>Seleccione una imagen de internet para crear el rompecabezas o use la imagen seleccionada por defecto</p>
+      <label id="label1">Pegue la ruta la imagen aqui: </label>
+      <input id="txtimagen" type="text">
+      <input value="Ver Imagen" id="cmdvalidar" type="button" onclick="validarRuta();">
+      <label id="lblresultado"></label>
+    </div>
+
+    <div class="opciones" id="divcombo">
+      <p>Seleccione las dimensiones del rompecabezas (Numero de piezas)</p>
+      <label id="label2">Elija el numero de filas y columnas</label>
+      <select id="cmbpiezas">
+        <option value="opcion3">3 x 3</option>
+        <option value="opcion4" selected>4 x 4</option>
+        <option value="opcion5">5 x 5</option>
+        <option value="opcion6">6 x 6</option>
+        <option value="opcion7">7 x 7</option>
+        <option value="opcion8">8 x 8</option>
+        <option value="opcion9">9 x 9</option>
+        <option value="opcion10">10 x 10</option>
+      </select>
+    </div>
+    <div class="opciones" id="divimagen">
+      <label id="label3">Vista previa de la imagen: </label>
+      <div id="divminiatura">
+        <input value="Crear Rompecabezas" id="cmdgenerar" type="button" onclick="generar();">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="firma"></div>
+
+</body>
+</html>

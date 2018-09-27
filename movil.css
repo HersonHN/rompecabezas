@@ -1,0 +1,22 @@
+
+/*********************************************/
+@media only screen and (max-width: 800px) {
+  body {
+    border: none;
+  }
+  input#cmdreiniciar {
+    float: initial;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+}

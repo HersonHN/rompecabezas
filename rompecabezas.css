@@ -1,0 +1,76 @@
+
+div.opciones{ padding: 10px; }
+
+label#label1, 
+label#label2,
+label#lblresultado { 
+  display: block;
+  margin-top: 10px;
+}
+
+label#lblresultado { color: #F00; }
+
+p {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+select#cmbpiezas {
+  display: block;
+  width: 200px;
+}
+
+div#divminiatura { 
+  text-align: center;
+  margin: 10px 0;
+}
+
+input#cmdreiniciar { 
+  display: block;
+  float: right;
+}
+
+a.pieza { 
+  float: left;
+  display: block;
+  border: 1px solid #000;
+}
+
+div#divmovimientos{
+  margin: 10px 0px;
+  padding: 10px;
+  text-align: center;
+  border: solid rgb(0,200,0) 1px;
+  background-color: rgb(200,255,200);
+}
+
+label.etiqueta{
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+table#tablapiezas{
+  clear: both;
+  border-collapse: collapse;
+  width: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+}
+
+table#tablapiezas td{
+  margin: 0px;
+  padding: 1px 1px 0px 0px ;
+  width: 0px;
+}
+
+div.firma{ 
+  margin-top: 20px;
+  font-size:80%;
+  font-style: oblique;
+  text-align: right;
+ }
+
+
+.oculto{ display: none; }
+
